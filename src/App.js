@@ -1,6 +1,7 @@
 import './App.css';
 import { useState } from 'react';
 import Square from './Components/Square';
+import { Patterns } from './Patterns';
 
 function App() {
   const [board, setBoard] = useState(['', '', '', '', '', '', '', '', '']);
